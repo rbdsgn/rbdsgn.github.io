@@ -1,0 +1,166 @@
+* {
+	font-family: 'Poppins', sans-serif;
+}
+.logo img {
+	width: 100px;
+	margin-right: 20px;
+}
+header {
+	background: #fff;
+}
+header .nav {
+	text-transform: uppercase;
+}
+header .nav li a {
+	font-size: 13px;
+}
+.icons a {
+	padding: 8px;
+}
+.icons img {
+	width: 18px;
+}
+.icon-tik img {
+	width: 34px;
+}
+.icon-search {
+	margin-left: 5px;
+}
+.hero img {
+	width: 100%;
+}
+.hero {
+	margin-bottom: 60px;
+	margin-top: 0;
+}
+.about-section {
+	margin-bottom: 120px;
+	max-width: 1070px;
+}
+.about-section h3 {
+	line-height: 1.37;
+    font-size: 30px;
+}
+.about-section p {
+	line-height: 2;
+	font-size: 15px;
+}
+
+.slider-section img {
+	width: 100%;
+}
+.slider-section .container {
+	max-width: 800px;
+}
+.slider-section h4 {
+	margin-bottom: 30px;
+	font-size: 28px;
+	text-transform: uppercase;
+}
+.slider-section p {
+	margin-bottom: 40px;
+	line-height: 1.8;
+	font-size: 13px;
+}
+.cta-button {
+	padding: 10px 20px;
+	border: 1px solid #000;
+	text-transform: uppercase;
+	font-size: 15px;
+	color: #222;
+	text-decoration: none;
+}
+
+footer {
+	background: #ededed;
+	padding: 50px 30px;
+	margin-top: 120px;
+	font-size: 13px;
+}
+
+
+.carousel-label {
+	color: #ec0f0f;
+}
+.carousel-label h6 {
+	font-size: 37px;
+    margin-bottom: -6px;
+    
+}
+.carousel-label p {
+	font-size: 10px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.carousel-cell {
+	display: flex;
+	width: 100%;
+}
+.carousel-col {
+	width: 50%;
+	padding: 0 20px;
+}
+.carousel-info {
+	padding-right: 80px;
+}
+.flickity-prev-next-button.next {
+    right: -100px;
+}
+.flickity-prev-next-button.previous {
+    left: -100px;
+}
+.flickity-page-dots {
+	display: none;
+}
+
+@media (max-width: 767px) {
+	.about-section .col-4,
+	.about-section .col-8  {
+		width: 100%;
+	}
+	.about-section {
+		padding: 0 30px;
+		margin-bottom: 50px;
+	}
+	.hero {
+    margin-bottom: 40px;
+    margin-top: 160px;
+	}
+	.about-section h3 {
+		font-size: 24px;
+	}
+	.about-section p {
+		font-size: 13px;
+	}
+	
+	.carousel-info {
+    padding-right: 0;
+	}
+	.flickity-prev-next-button.next {
+    right: -30px;
+    }
+	.flickity-prev-next-button.previous {
+    left: -30px;
+     
+	}
+	.slider-section h4 {
+    margin-bottom: 5px;
+    font-size: 22px;
+    }
+    .carousel-label p {
+	    margin-bottom: 15px;
+    }
+    .carousel-col {
+	    width: 100%;
+    }
+    .carousel-cell {
+	    display: block;
+    }
+    .slider-section img {
+	    margin-top: 40px;
+    }
+    .slider-section {
+	    padding: 0 50px;
+    }
+}
