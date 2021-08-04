@@ -72,6 +72,7 @@ header .nav li a {
 	color: #222;
 	text-decoration: none;
 	display: inline-block;
+	letter-spacing: 0.07em;
 }
 
 footer {
