@@ -13,6 +13,7 @@ header .nav {
 }
 header .nav li a {
 	font-size: 13px;
+	letter-spacing: 0.07em;
 }
 .icons a {
 	padding: 8px;
