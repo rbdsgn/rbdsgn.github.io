@@ -1,5 +1,5 @@
 * {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'DM sans', sans-serif;
 }
 .logo img {
 	width: 100px;
@@ -40,6 +40,7 @@ header .nav li a {
 .about-section h3 {
 	line-height: 1.37;
     font-size: 30px;
+    max-width: 280px;
 }
 .about-section p {
 	line-height: 2;
@@ -123,11 +124,11 @@ footer {
 	}
 	.about-section {
 		padding: 0 30px;
-		margin-bottom: 50px;
+		margin-bottom: 30px;
 	}
 	.hero {
-    margin-bottom: 40px;
-    margin-top: 160px;
+    	margin-bottom: 40px;
+		margin-top: 78px;
 	}
 	.about-section h3 {
 		font-size: 24px;
@@ -137,18 +138,18 @@ footer {
 	}
 	
 	.carousel-info {
-    padding-right: 0;
+    	padding-right: 0;
 	}
 	.flickity-prev-next-button.next {
-    right: -30px;
+    	right: -30px;
     }
 	.flickity-prev-next-button.previous {
-    left: -30px;
+    	left: -30px;
      
 	}
 	.slider-section h4 {
-    margin-bottom: 5px;
-    font-size: 22px;
+    	margin-bottom: 5px;
+		font-size: 22px;
     }
     .carousel-label p {
 	    margin-bottom: 15px;
@@ -165,4 +166,75 @@ footer {
     .slider-section {
 	    padding: 0 50px;
     }
+    .logo img {
+	    margin: 0;
+	    width: 90px;
+    }
+    header.p-3 {
+	    padding: 10px 10px 0 10px !important;
+    }
+    .nav.icons {
+	    margin: 0 !important;
+    }
+    .nav.icons li a {
+	    position: absolute;
+	    top: 7px;
+    }
+    .icon-tik {
+	    left: 4px;
+    }
+    .icon-insta {
+	    left: 40px;
+    }
+    .icon-search {
+	    right: 9px;
+    }
+    .icon-shop {
+	    right: 40px;
+    }
+    .icons img {
+    	width: 15px;
+	}
+	.icon-tik img {
+    	width: 30px;
+	}
+	header .nav li a {
+    	font-size: 12px;
+	}
+	header .nav {
+		justify-content: space-between !important;
+		margin-bottom: 0 !important;
+	}
+	.hero-img {
+		display: none;
+	}
+	.slider-section p {
+		margin-bottom: 20px;
+	}
+	.cta-button {
+		font-size: 13px;
+	}
+	footer {
+    	padding: 30px 20px;
+		margin-top: 40px;
+		font-size: 11px;
+	}
+	.about-section h3 {
+		max-width: 90%;
+	}
+
+
+	
+	
 }
+
+@media (min-width: 768px) {
+	.hero-img {
+		display: block;
+	}
+	.hero-img-mobile {
+		display: none;
+	}
+}
+
+	
