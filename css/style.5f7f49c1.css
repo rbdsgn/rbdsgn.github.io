@@ -354,7 +354,7 @@ ol li {
   width: 100%;
   vertical-align: top;
   margin-right: auto;
-  background-image: url(../images/thumbnail/image-2.jpeg);
+  background-image: url(../images/thumbnail/How-I-Live-Andreas-Anastasis_18-1024x683.jpeg);
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -558,7 +558,7 @@ ol li {
   position: relative;
   min-height: 100vh;
   overflow: hidden;
-  background-image: url('../images/thumbnail/How-I-Live-Andreas-Anastasis_26-1024x683.jpeg');
+  background-image: url('../images/thumbnail/How-I-Live-Andreas-Anastasis_25-1024x683.jpeg');
   background-size: cover;
 }
 
@@ -1012,4 +1012,20 @@ ol li {
   }
 }
 
+.cards-quote {
+	    align-items: center !important;
+}
+.cards-single {
+	max-width: 1050px;
+    margin: 0 auto !important;
+}
+.cards-single img {
+	max-width: 100% !important;
+}
+
+.pull-quote {
+	max-width: 300px;
+    text-align: left;
+    margin: 0 auto;
+}
 
