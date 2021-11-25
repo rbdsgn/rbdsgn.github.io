@@ -265,9 +265,9 @@ ol li {
 }
 
 .fr_oneintro.fr-text p {
-  font-weight: 600;
+  font-weight: 400;
   font-size: 42px;
-  line-height: 1.7;
+  line-height: 1.4;
   text-align: center;
   color: white
 }
@@ -354,7 +354,7 @@ ol li {
   width: 100%;
   vertical-align: top;
   margin-right: auto;
-  background-image: url(../images/thumbnail/How-I-Live-Andreas-Anastasis_18-1024x683.jpeg);
+  background-image: url(../images/thumbnail/How-I-Live-Andreas-Anastasis_09.jpg);
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -558,7 +558,7 @@ ol li {
   position: relative;
   min-height: 100vh;
   overflow: hidden;
-  background-image: url('../images/thumbnail/How-I-Live-Andreas-Anastasis_25-1024x683.jpeg');
+  background-image: url('../images/thumbnail/How-I-Live-Andreas-Anastasis_16.jpg');
   background-size: cover;
 }
 
@@ -615,7 +615,7 @@ ol li {
 
 .fr_logo {
   float: none;
-  display: none;
+  display: none !important;
   top: 20px;
   left: 50%;
   width: 100px;
@@ -666,7 +666,7 @@ ol li {
   width: 100%;
   vertical-align: top;
   margin-right: auto;
-  background-image: url(../images/thumbnail/How-I-Live-Andreas-Anastasis_22-1024x683.jpeg);
+  background-image: url(../images/thumbnail/How-I-Live-Andreas-Anastasis_14.jpg);
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -1027,5 +1027,6 @@ ol li {
 	max-width: 300px;
     text-align: left;
     margin: 0 auto;
+        font-weight: 400;
 }
 
