@@ -672,6 +672,18 @@ ol li {
   position: relative;
   min-height: 100vh
 }
+.fr_hero_bg_image_centered_text_3a {
+  float: none;
+  display: block;
+  width: 100%;
+  vertical-align: top;
+  margin-right: auto;
+  background-image: url(../images/thumbnail/final.jpg);
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  min-height: 100vh
+}
 
 .fr_dropbox_video_bg_3 {
   display: block;
@@ -1024,9 +1036,10 @@ ol li {
 }
 
 .pull-quote {
-	max-width: 300px;
+	max-width: 350px;
     text-align: left;
     margin: 0 auto;
-        font-weight: 400;
+    font-weight: 400;
+    font-size: 28px;
 }
 
