@@ -989,6 +989,8 @@ ol li {
     padding-bottom: 80px;
     min-height: 50vh;
     background-attachment: scroll !important;
+    height: 50vh;
+    background-position: center center !important;
   }
 
   .fr_dropbox_video_bg_3 {
