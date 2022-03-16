@@ -150,6 +150,8 @@ ol li {
   line-height: 1.5;
   text-align: center;
   color: #2e2e2e;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 .fr_button {
@@ -1053,5 +1055,9 @@ ol li {
     margin: 0 auto;
     font-weight: 400;
     font-size: 28px;
+    line-height: 1.6;
+}
+.pull-quote span {
+	font-size: 17px;
 }
 
