@@ -560,7 +560,7 @@ ol li {
   position: relative;
   min-height: 100vh;
   overflow: hidden;
-  background-image: url('../images/thumbnail/main.jpg');
+  background-image: url('../images/thumbnail/florence-main.jpg');
   background-size: cover;
   background-position: center center;
 }
@@ -693,7 +693,7 @@ ol li {
   width: 100%;
   vertical-align: top;
   margin-right: auto;
-  background-image: url(../images/thumbnail/full-2.jpg);
+  background-image: url(../images/thumbnail/rest-full.jpg);
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -1078,13 +1078,19 @@ ol li {
 .fact-box {
 	background: #f3f3f3;
     float: right;
-    max-width: 400px;
-    padding: 10px 30px;
+    max-width: 480px;
+    padding: 0 30px 15px;
     margin-left: 50px;
     margin-bottom: 50px;
 }
 .fact-box p {
 	font-size: 14px;
+	margin-bottom: 11px;
+    margin-top: 0;
+}
+.fact-box h3 {
+	margin-top: 25px;
+    margin-bottom: 11px;
 }
 @media screen and (max-width:767px) {
   .fact-box {
@@ -1112,4 +1118,20 @@ ol li {
 .cards-text-columns {
 	margin-top: 50px !important;
     margin-bottom: 50px !important;
+}
+@media screen and (max-width:767px) {
+	.cards-text-columns .card-img,
+	.cards-text-columns div  {
+		width: 100%;
+		max-width: 100% !important;
+	}
+	.cards.cards-text-columns {
+		margin-top: 30px !important;
+	}
+}
+@media screen and (max-width:480px) {
+	.cards a {
+		max-width: 100% !important;
+		    margin-bottom: 20px! important;
+	}
 }
