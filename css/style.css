@@ -1075,6 +1075,11 @@ ol li {
 .paragraph-with-fact-box {
 	max-width: 1200px;
 }
+.paragraph-with-fact-box:after {
+	content: '';
+    display: block;
+    clear: both;
+}
 .fact-box {
 	background: #f3f3f3;
     float: right;
