@@ -560,7 +560,7 @@ ol li {
   position: relative;
   min-height: 100vh;
   overflow: hidden;
-  background-image: url('../images/thumbnail/florence-main.jpg');
+  background-image: url('../images/thumbnail/main.jpg');
   background-size: cover;
   background-position: center center;
 }
@@ -693,7 +693,19 @@ ol li {
   width: 100%;
   vertical-align: top;
   margin-right: auto;
-  background-image: url(../images/thumbnail/rest-full.jpg);
+  background-image: url(../images/thumbnail/3.jpg);
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  min-height: 100vh
+}
+.fr_hero_bg_image_centered_text_3d {
+  float: none;
+  display: block;
+  width: 100%;
+  vertical-align: top;
+  margin-right: auto;
+  background-image: url(../images/thumbnail/5.jpg);
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -1075,27 +1087,16 @@ ol li {
 .paragraph-with-fact-box {
 	max-width: 1200px;
 }
-.paragraph-with-fact-box:after {
-	content: '';
-    display: block;
-    clear: both;
-}
 .fact-box {
 	background: #f3f3f3;
     float: right;
-    max-width: 480px;
-    padding: 0 30px 15px;
+    max-width: 400px;
+    padding: 10px 30px;
     margin-left: 50px;
     margin-bottom: 50px;
 }
 .fact-box p {
 	font-size: 14px;
-	margin-bottom: 11px;
-    margin-top: 0;
-}
-.fact-box h3 {
-	margin-top: 25px;
-    margin-bottom: 11px;
 }
 @media screen and (max-width:767px) {
   .fact-box {
